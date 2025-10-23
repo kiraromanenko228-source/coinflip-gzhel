@@ -1,22 +1,13 @@
-# зависимости
+# Node/Electron
 node_modules/
 client/node_modules/
 server/node_modules/
-
-# Electron сборки и артефакты
-/dist/
-/build/
-/out/
-/release/
-*.asar
+client/**/electron/dist/
 *.exe
-*.dmg
-*.AppImage
-*.msi
-*.zip
-*.7z
-
-# кэш/локальные файлы
+*.dll
+*.pak
+*.bin
 *.log
-.DS_Store
-Thumbs.db
+dist/
+out/
+build/
