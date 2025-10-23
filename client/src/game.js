@@ -851,7 +851,7 @@ class MultiplayerManager {
 
     connect() {
         try {
-            const serverURL = 'wss://coinflip-render.onrender.com';
+            const serverURL = 'wss://coinflip-gzhel.onrender.com';
             
             console.log(`🔗 Подключаемся к серверу: ${serverURL}`);
             
