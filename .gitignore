@@ -1,9 +1,9 @@
-# dependencies
+# Dependencies
 node_modules/
 client/node_modules/
 server/node_modules/
 
-# builds/artifacts
+# Builds and logs
 dist/
 out/
 *.log
