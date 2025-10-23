@@ -1,25 +1,22 @@
-# Node / JS
+# зависимости
 node_modules/
 client/node_modules/
 server/node_modules/
-npm-debug.log*
-yarn-error.log*
-pnpm-lock.yaml
-package-lock.json
 
-# Сборки/артефакты
-dist/
-build/
-out/
-release/
+# Electron сборки и артефакты
+/dist/
+/build/
+/out/
+/release/
 *.asar
+*.exe
+*.dmg
+*.AppImage
+*.msi
+*.zip
+*.7z
 
-# OS / IDE
+# кэш/локальные файлы
+*.log
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
-
-# Env
-.env
-.env.*
