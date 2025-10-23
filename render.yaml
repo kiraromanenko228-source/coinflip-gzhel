@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: coinflip-gzhel
+    runtime: node
+    plan: free
+    buildCommand: |
+      npm install
+      cd server && npm install || true
+    startCommand: |
+      node server/index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
